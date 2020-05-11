@@ -8,7 +8,7 @@ The main program is the latest "ChromoSimulator v#.tank". All input process, sim
 
 The following are the steps to run the simulation.
 
-1. Download and install DataTank https://www.visualdatatools.com/DataTank/. Get the license by following instructions on the website. Get the simulation script "ChromoSimulator v13.tank".
+1. Download and install DataTank https://www.visualdatatools.com/DataTank/. Get the license by following instructions on the website. Get the latest simulation script "ChromoSimulator v#.tank".
 2. Run "ChromoSimulator v13.tank" through DataTank. Set inputs before running the simulation.
 3. To launch the simulation, typically two approaches are adopted. 
   a.	Local. This approach occupies machine CPU therefore potentially prevent users from multitasking, especially for long simulations, but it allows users to view the geometry simultaneously. 
@@ -24,3 +24,6 @@ The following are the steps to run the simulation.
   b.	For online simulation, the output data is saved inside Parameter_run.dtask file.
 
 The "dataAnalysis v#.tank" contains some stochastic analysis tools for the simulation.
+
+Notes:
+1. There is compile issue on UNC server, due to the fact that the default compiler on UNC server does not support C++11. To resolve this, once the submission to server is complete, ssh to UNC server and direct into the source folder (by cd DataTaskWorkingDirectory/*FILENAME*/Sources), modify the make file by typing "emacs MakeFile", and change the MakeFile by appending "-std=c++11" at the back to the "CXXFLAGS" line. Compile again.

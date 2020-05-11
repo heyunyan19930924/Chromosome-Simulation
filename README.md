@@ -6,6 +6,8 @@ The simulation is implemented by C++, and uses DataTank as its interphase. DataT
 
 The main program is the latest "ChromoSimulator v#.tank". All input process, simulation process and output process are in this program using DataTank as interphase. It allows people to visualize output configuration real-time as simulation is progressing. The kernel C++ script is attached to the .tank file.
 
+The other main program is "ChromoSimulator v# linear.tank" which is exactly the same as the default simulation program, only execpt that the geometry is linear. This version is mostly for tests.
+
 The following are the steps to run the simulation.
 
 1. Download and install DataTank https://www.visualdatatools.com/DataTank/. Get the license by following instructions on the website. Get the latest simulation script "ChromoSimulator v#.tank".

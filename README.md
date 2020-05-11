@@ -4,7 +4,7 @@ This work simulates chromosome dynamics of plasmid, a synthesized chromosome out
 
 The simulation is implemented by C++, and uses DataTank as its interphase. DataTank is a numerical work environment developed by David Adelsteinsson https://www.visualdatatools.com/DataTank/. It is powerful at processing and visualizing various formats of data, and it allows users to create custom C++ scripts externally using its default DTSource library.
 
-The main program is "ChromoSimulator v13.tank". All input process, simulation process and output process are in this program using DataTank as interphase. It allows people to visualize output configuration real-time as simulation is progressing. The kernel C++ script is attached to the .tank file.
+The main program is the latest "ChromoSimulator v#.tank". All input process, simulation process and output process are in this program using DataTank as interphase. It allows people to visualize output configuration real-time as simulation is progressing. The kernel C++ script is attached to the .tank file.
 
 The following are the steps to run the simulation.
 
@@ -22,4 +22,5 @@ The following are the steps to run the simulation.
 5. To get the simulation results, the approach depends on if the simulation is run locally or online. 
   a.	For local simulation, the output data is saved by DataTank into local cache. One can save the output in a custom .mat file as the simulation progresses. 
   b.	For online simulation, the output data is saved inside Parameter_run.dtask file.
-The "dataAnalysisv2.tank" contains some stochastic analysis tools for the simulation.
+
+The "dataAnalysis v#.tank" contains some stochastic analysis tools for the simulation.

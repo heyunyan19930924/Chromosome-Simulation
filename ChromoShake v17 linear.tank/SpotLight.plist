@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>centromereStd 7.68e-8, E = 2 corresponds to PL = 50nm loop_radius = 0.44372
+unbindTime 160/14100 unbindTimeVar 60/14100
+Two typical parameter set:  fast JT 2e-6 ER 3; slow JT 1e-5 ER 1.5
+Extrusion rate varies from 60bp/s to 1500bp/s, in simulation judge time varies from 1.4e-6 to 3.5e-5
+5e-3 refers to adding 30 condensins
+judgeTIme 3.94e-5 on average; extrusionRatePwr 1.5; unbindTime 160/14100; unbindTimeVar 60/14100;</string>
+</dict>
+</plist>
